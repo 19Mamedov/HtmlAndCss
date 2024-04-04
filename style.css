@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* First Task */
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container > div {
+    background-color: white;
+    height: 600px;
+    width: 90%;
+    display: flex;
+    
+}
+
+.image {
+    width: 50%;
+    height:600px ;
+    background-color: black;
+}
+
+.image > img {
+    width:100%;
+    height: 600px;
+}
+
+.right {
+
+    background-color: rgb(6, 28, 28);
+    width: 50%;
+    height:600px ;
+}
+
+.right > div > h3 {
+    color: rgb(213, 106, 29);
+    padding-top:30px ;
+    font-size: 25px;
+    /* padding-left: 30px; */
+
+}
+
+.right > div > h1 {
+    color: rgb(255, 255, 255);
+    padding-top:10px ;
+    font-size: 45px;
+    /* padding-left: 30px; */
+
+}
+.right > div {
+
+    padding-left: 40px;
+}
+
+.button1 {
+    width: 600px;
+    height: 50px;
+    background-color: rgb(213, 106, 29);
+    color: white;
+    font-size: 20px;
+    border: none;
+}
+
+/* Secend Task */
+
+.container2 {
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+}
+
+.container2 > div {
+    background-color: white;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+}
+
+.container2_left {
+    width: 30%;
+    height: 90vh;
+    background-color:rgb(73, 70, 70);
+}
+.container2_right {
+    width: 70%;
+    height: 90vh;
+    background-color: rgb(56, 82, 82);
+}
+
+.rightBottom {
+    height: 50%;
+    width: 100%;
+
+}
+.rightBottom > img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.rightTop  {
+    height: 50%;
+    width: 100%;
+    background-color: rgb(254, 254, 254);
+    display: flex;
+
+}
+
+.rightTop > div {
+    height: 100%;
+    width: 50%;
+
+}
+
+.rightTop > div > img {
+    height: 100%;
+    width: 100%;
+
+}
+
+
+.rightTop > div > h1{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding-top: 40px;
+    text-align: center;
+}
+.rightTop > div > p {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 30px 20px 0px 20px;
+    text-align: center;
+}
+
+.container2_left > h1{
+
+    color: white;
+    font-size: 25px;
+    padding-left: 30px;
+    margin-top: 100px;
+
+
+}
+
+.container2_left > p {
+
+    color: white;
+    font-size: 20px;
+    padding-left: 30px;
+    margin-top: 30px;
+}
+
+.button2 {
+
+    margin-left: 30px;
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    color: white;
+    border: 1px solid white;
+    background-color: rgb(73, 70, 70);
+
+}
+
+
+/* THIRD TASK */
+
+.container3 {
+    margin-top: 100px;
+    background-color: black;
+    width: 100%;
+    height: 700px;
+   
+}
+
+.container3_top {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(20, 128, 128);
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    gap:50px ;
+}
+
+.navbar_left > ul {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.navbar_left > ul > li {
+    list-style-type: none;
+}
+
+.button_nav {
+    width: 150px;
+    height: 30px;
+    color: white;
+    background-color: rgb(50, 68, 226);
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-right: 20px;
+    border: none;
+}
+.logo  > h1  {
+    margin-left: 100px;
+    margin-top: 20px;
+    color: white;
+
+}
+
+.container3_center {
+ display: flex;
+ justify-content: center;
+ width: 100%;
+ background-color: white;
+ height: 700px;
+}
+.center_left {
+    width: 450px;
+    height:500px ;
+}
+.center_left > img{
+    width: 100%;
+    height:700px ;
+}
+
+.container3_center > div > img {
+    width: 100%;
+    height: 500px;
+}
+.center_right {
+    width: 700px;
+    height: 700px;
+}
+.center_right > div > h3 {
+    margin-top: 30px;
+    color:rgb(20, 128, 128) ;
+    margin-left: 50px;
+}
+
+.center_right > div > h1 {
+    margin-top: 30px;
+    color:rgb(20, 128, 128) ;
+    margin-left: 50px;
+}
+
+.pluslar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.pluslar > div > h1 {
+    color:rgb(38, 86, 153) ;
+    
+}
+
+.pluslar > div > p {
+    color: rgb(98, 96, 96);
+}
+
+.uzunMetn {
+    margin: 40px 50px 0px 50px;
+    color: rgb(98, 96, 96);
+}
+
+.button3 {
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 200px;
+    height: 40px;
+    background-color:rgb(20, 128, 128) ;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
